@@ -1,0 +1,91 @@
+.introduction {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(100vw - 5rem);
+    max-width: 79.6875rem;
+    min-height: 43.75rem;
+    height: auto;
+    
+
+    background: #5EC1A1;
+    margin: 1.4375rem auto;
+    border-radius: 1.875rem;
+    padding: 30px 50px;
+    overflow: hidden;
+
+    
+
+}
+
+.introduction::before {
+    position: absolute;
+    top: -20%; left: -15%; right: 0; bottom: 0;
+    width: 31.75rem;
+    height: 31.75rem;
+
+    content: '';
+    background-image: url(/assets/images/circuit.png);
+    
+    opacity: 0.06;
+}
+
+.introduction::after {
+    position: absolute;
+    right: -20%; bottom: -15%;
+    opacity: 0.06;
+    content: '';
+    width: 31.75rem;
+    height: 31.75rem;
+    background-image: url(/assets/images/circuit.png);
+    
+}
+
+
+.introduction h1 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1.9375rem;
+    
+    
+}
+
+.introduction h2 {
+    color: rgba(255, 255, 255, 0.94);
+    text-align: center;
+    margin-bottom: 1.9375rem;
+    font-weight: 400;
+    
+
+}
+
+.introduction button {
+    display: block;
+    margin: 0 auto;
+    padding: 1.1875rem 1.75rem; 
+    width: auto;
+    height: auto;
+    
+    font-weight: 400;
+    font-size: 1.65rem; 
+    color: white;
+
+    background: #563939;
+    border-radius: 1.2rem;
+    border: none;
+    transition-duration: 300ms;
+    cursor: pointer;
+    box-shadow: 0 0.25rem 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+
+
+
+}
+.introduction button:hover ,
+.introduction button:focus {
+    background: #ffffff;
+    outline: none;
+    color: #563939;
+}

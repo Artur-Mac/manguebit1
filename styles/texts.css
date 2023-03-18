@@ -1,0 +1,74 @@
+.texts {
+    display: block;
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+}
+
+.texts > section {
+    width: 79.6875rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+    padding: 0;
+}
+
+.texts > section:nth-child(2) {
+    margin-top: 116px;
+}
+
+.apresentation {
+    width: 43.4375rem;
+    height: auto;
+    padding: 50px 60px;
+    margin-right: 126px;
+
+    color: #563939;
+
+    background: rgba(255, 255, 255, 0.74);
+    border-radius: 35px ;
+
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 4px rgba(0,0,0,.25);
+}
+
+.apresentation > h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33.6px;
+    line-height: 50px;
+    text-align: center;
+
+    
+}
+
+.apresentation > p {
+    line-height: 35px;
+    font-size: 20px;
+    
+
+} 
+
+.image {
+    width: 482px;
+    height: 470px;
+    display: flex;
+
+    background: #563939;
+    border-radius: 26.4px;
+
+    padding: 10px;
+
+
+}
+
+section:nth-child(2) .apresentation {
+    margin-right: 0;
+    margin-left: 126px;
+}
+
+

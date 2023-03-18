@@ -1,0 +1,15 @@
+@media (max-width: 1000px) {
+    section .apresentation {
+        align-self: center;
+        justify-self: center;
+        
+    }
+
+    section:nth-child(2) .apresentation {
+        margin: 0 auto;
+    }
+    
+    .image {
+        display: none;
+    }
+}
